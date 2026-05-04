@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FPV - موقع الفيديوهات</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>FPV</h1>
+        </div>
+        
+        <div class="header-controls">
+            <div class="dropdown">
+                <button class="dropdown-btn">الأقسام</button>
+                <div class="dropdown-menu">
+                    <a href="mini.html">Mini</a>
+                    <a href="mavic.html">Mavic</a>
+                    <a href="matric.html">Matric</a>
+                    <a href="phantom.html">Phantom</a>
+                    <a href="fpv.html">FPV</a>
+                    <a href="air.html">Air</a>
+                </div>
+            </div>
+            <button id="darkModeToggle">����</button>
+            <a href="structure.html" class="btn">العودة</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="options">
+
+            <!-- الفيديو المحلي بدون تفاصيل -->
+            <div class="option">
+                <h3>فيديو محلي FPV</h3>
+                <div class="videos">
+                    <div class="video-container">
+                        <video controls width="100%" height="100%" poster="preview.jpg">
+                            <source src="my.mp4" type="video/mp4">
+                            متصفحك لا يدعم تشغيل الفيديو.
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <div class="option">
+                <h3>DJI FPV 2</h3>
+                <div class="videos">
+                    <div class="video-container" data-video="fpv2video1">
+                        <div class="video-info-top">
+                            <div class="video-title">شرح صيانة DJI FPV 2</div>
+                          
+                        </div>
+                        <div class="thumbnail" style="background-image: url('https://img.youtube.com/vi/fpv2video1/hqdefault.jpg')">
+                            <div class="play-button">▶</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="option">
+                <h3>DJI FPV</h3>
+                <div class="videos">
+                    <div class="video-container" data-video="djifpv1">
+                        <div class="video-info-top">
+                            <div class="video-title">شرح صيانة DJI FPV</div>
+                          
+                        </div>
+                        <div class="thumbnail" style="background-image: url('https://img.youtube.com/vi/djifpv1/hqdefault.jpg')">
+                            <div class="play-button">▶</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 موقع الفيديوهات</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
